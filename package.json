@@ -1,0 +1,21 @@
+{
+  "name": "pic-ui",
+  "version": "0.1.0",
+  "description": "Image gallery of Stable Diffusion images generated via Slack.",
+  "main": "src/index.ts",
+  "scripts": {
+    "tail": "npx wrangler tail",
+    "start": "npx wrangler dev --remote",
+    "deploy": "npx wrangler deploy"
+  },
+  "author": "Noman",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231121.0",
+    "typescript": "^5.3.2",
+    "vitest": "^0.34.6",
+    "wrangler": "^3.19.0"
+  },
+  "dependencies": {
+  }
+}
